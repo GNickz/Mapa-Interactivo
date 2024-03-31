@@ -1,0 +1,386 @@
+.Contenedor-mapa{
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    margin: 150px auto;
+    /*background-color: blueviolet;*/
+    box-shadow: 1px 5px 20px 5px #4B1616;
+
+    
+    
+    /*background-color: rgb(69, 245, 0);*/
+}
+
+.Contenido-mapa{
+    position: absolute;
+    width: 900px;
+    height: 750px;
+    top: 25px;
+    left: 150px;
+    z-index: 1;
+    /*background-color: rgb(255, 0, 0);*/
+}
+
+.Contenido-mapa .mapa{
+    width: 900px;
+    height: 750px;
+    
+}
+
+@media (max-width: 1200px ){
+    .Contenedor-mapa{
+        width: 900px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 800px;
+        /*background-color: chartreuse;*/
+        left: 50px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 800px;
+    }
+    
+}
+
+@media (max-width: 900px ){
+
+    
+    .Contenedor-mapa{
+        width: 700px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 600px;
+        /*background-color: chartreuse;*/
+        left: 50px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 600px;
+    }
+    
+}
+
+@media (max-width: 840px ){
+
+    
+    .Contenedor-mapa{
+        width: 700px;
+        top: 50px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 600px;
+        /*background-color: chartreuse;*/
+        left: 50px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 600px;
+    }
+    
+}
+
+
+
+@media (max-width: 750px ){
+    .Contenedor-mapa{
+        width: 650px;
+        background-color: orange;
+    }
+
+    .Contenido-mapa{
+        width: 600px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 600px;
+    }
+    
+}
+
+
+@media (max-width: 700px ){
+    .Contenedor-mapa{
+        width: 500px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 450px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 450px;
+    }
+    
+}
+
+@media (max-width: 600px ){
+    .Contenedor-mapa{
+        width: 550px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 500px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 500px;
+    }
+    
+}
+
+@media (max-width: 575px ){
+    .Contenedor-mapa{
+        width: 525px;
+        background-color: pink;
+    }
+
+    .Contenido-mapa{
+        width: 475px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 475px;
+    }
+    
+}
+
+@media (max-width: 550px ){
+    .Contenedor-mapa{
+        width: 500px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 450px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 450px;
+    }
+    
+}
+
+@media (max-width: 525px ){
+    .Contenedor-mapa{
+        width: 475px;
+        background-color: green;
+    }
+
+    .Contenido-mapa{
+        width: 425px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 425px;
+    }
+    
+}
+
+
+
+@media (max-width: 500px ){
+    .Contenedor-mapa{
+        width: 450px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 400px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 400px;
+    }
+    
+}
+
+@media (max-width: 456px ){
+    .Contenedor-mapa{
+        width: 400px;
+        background-color: orange;
+    }
+
+    .Contenido-mapa{
+        width: 350px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 350px;
+    }
+    
+}
+
+@media (max-width: 450px ){
+    .Contenedor-mapa{
+        width: 400px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 350px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 350px;
+    }
+    
+}
+
+@media (max-width: 424px ){
+    .Contenedor-mapa{
+        width: 350px;
+        background-color: blue;
+    }
+
+    .Contenido-mapa{
+        width: 300px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 300px;
+    }
+    
+}
+
+@media (max-width: 400px ){
+    .Contenedor-mapa{
+        width: 350px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 300px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 300px;
+    }
+    
+}
+
+@media (max-width: 384px ){
+    .Contenedor-mapa{
+        width: 350px;
+        background-color: red;
+    }
+
+    .Contenido-mapa{
+        width: 350px;
+        /*background-color: chartreuse;*/
+        /*left: 25px;*/
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 300px;
+    }
+    
+}
+
+@media (max-width: 360px ){
+    .Contenedor-mapa{
+        width: 300px;
+        background-color: black;
+    }
+
+    .Contenido-mapa{
+        width: 300px;
+        /*background-color: chartreuse;*/
+        /*left: 25px;*/
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 250px;
+    }
+    
+}
+
+@media (max-width: 300px ){
+    .Contenedor-mapa{
+        width: 250px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 200px;
+        /*background-color: chartreuse;*/
+        left: 25px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 200px;
+    }
+    
+}
+
+@media (max-width: 150px ){
+    .Contenedor-mapa{
+        width: 100px;
+        /*background-color: blue;*/
+    }
+
+    .Contenido-mapa{
+        width: 100px;
+        /*background-color: chartreuse;*/
+        left: 5px;
+        
+    }
+
+    .Contenido-mapa .mapa{
+        width: 100px;
+    }
+    
+}
+
+
+
+
+
+

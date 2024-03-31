@@ -1,0 +1,227 @@
+.app-sidebar__user-avatar{
+    width: 48px;
+    background: rgb(55, 255, 0);
+    padding: 5px;
+}
+
+.headerRegister{
+    background: #960000;
+    color: #fff;
+}
+
+.headerUpdate, .header-primary{
+    background: #007bff;
+    color: #fff;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.bootstrap-select > .dropdown-toggle{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/*.notBlock{
+    display: none;
+}*/
+
+.logo h1{
+	margin-top: 150px;
+    color: #4B1616;
+	margin-right: -60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-box{
+	margin-bottom: 100px;
+	border-radius: 5px;
+}
+
+#divLoading{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 254, 255, .65);
+    z-index: 1;
+    display: none;
+}
+
+#divLoading img{
+    width: 100px;
+    height: 100px;
+}
+
+.required{
+    color: red;
+    font-size: 13pt;
+    font-weight: bold;
+
+}
+
+
+/*Stilos de la portada de las artesanias*/
+
+.prevPhoto {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #CCC;
+    position: relative;
+    cursor: pointer;
+    background: url(../images/uploads/portada_artesania.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+
+.prevPhoto label{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.prevPhoto img{
+	width: 100%;
+	height: 100%;
+}
+.upimg, .notblock{
+	display: none !important;
+}
+.errorArchivo{
+	font-size: 16px;
+	font-family: arial;
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold; 
+	margin-top: 10px;
+}
+.delPhoto{
+	color: #FFF;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background: red;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	z-index: 10;
+}
+#tbl_list_productos img{
+	width: 50px;
+}
+.imgProductoDelete{
+	width: 175px;
+}
+
+#imgCategoria{
+    text-align: center;
+}
+
+#imgCategoria img{
+    width: 300px;
+    margin: auto;
+}
+
+/*Estilos para subir fotos de las artesanias*/
+#containerImages{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#containerImages > div{
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+.prevImage{
+	border: 1px solid rgb(0, 0, 0);
+	width: 120px;
+	height: 148px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.prevImage img{
+	width: 100%;
+}
+.inputUploadfile{
+	display: none;
+}
+.btnUploadfile, .btnDeleteImage{
+	border: 0;
+	background-color: #009607;
+	text-align: center;
+	padding: 2px 3px;
+	color: #FFF;
+	font-size: 9pt;
+	cursor: pointer;
+	width: 100%;
+}
+.btnDeleteImage{
+	background-color: #dc3545;
+}
+.prevImage .loading{
+	width: 30px;
+	height: 30px;
+}
+#celFotos img{
+	width: 150px;
+	margin: 10px;
+}
+
+.formulario-registro{
+	max-width: 100%;
+	/*background-color: #009607;*/
+}
+
+
+.advertencia-artesanias{
+	/*background-color: #cc0000;*/
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.advertencia-artesanias .a-a-p1{
+	color: #f90a0a;
+	text-align: center;
+
+}
+.advertencia-artesanias .a-a-p2{
+	text-align: center;
+
+
+}
+
+.D-artesania{
+	width: 210px;
+	text-align: center;
+}
+
+.D-artesano{
+	text-align: center;
+	width: 210px;
+}
+
+.caja-artesanos{
+	margin-bottom: 325px;
+}
+
+

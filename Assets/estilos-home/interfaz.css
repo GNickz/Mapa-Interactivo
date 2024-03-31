@@ -1,0 +1,306 @@
+.Contenedor-municipios{
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    margin:  auto;
+    /*background-color: brown;*/
+    box-shadow: 1px 5px 20px 5px #4B1616;
+}
+
+.Contenido-municipios{
+    position: absolute;
+    width: 1100px;
+    height: 850px;
+    margin: 25px 50px;
+    /*background-color: blueviolet;*/
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Municipios{
+    width: 500px;
+    height: 750px;
+    margin: 50px;
+    box-shadow: 1px 5px 20px 5px #4B1616;
+    
+    /*background-color: rgb(23, 13, 209);*/
+}
+.Municipios h3{
+   text-align: center;
+   margin: 25px;
+   font-size: 25px;
+}
+.Info-municipios h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+    /*color: darkgoldenrod;*/
+}
+.Info-municipios p{
+    width: 300px;
+    font-size: 20px;
+    margin: 50px auto;
+    text-align: justify;
+    /*color: darkgoldenrod;*/
+}
+
+.Municipios .Select_municipios{
+    text-align: center;
+    width: 200px;
+    margin: 0 125px 0 125px;
+}
+
+
+
+.Info-municipios{
+    width: 500px;
+    height: 450px;
+    margin: 50px;
+    box-shadow: 1px 5px 20px 5px #4B1616;
+    /*background-color: rgb(255, 255, 255);*/
+}
+
+
+
+
+@media (max-width: 1200px){
+    .Contenedor-municipios{
+        width: 900px;
+        height: 1500px;
+        /*background-color: chartreuse;*/
+    }
+
+    .Contenido-municipios{
+        width: 800px;
+        height: 1450px;
+        display: grid;
+        justify-content: center;
+    }
+
+
+}
+
+    
+@media (max-width: 900px){
+    .Contenedor-municipios{
+        width: 700px;
+       
+        /*background-color: chartreuse;*/
+    }
+
+    .Contenido-municipios{
+        width: 600px;
+       
+
+    }
+
+}
+
+@media (max-width: 700px){
+    .Contenedor-municipios{
+        width: 500px;
+        /*background-color: chartreuse;*/
+    }
+
+    .Contenido-municipios{
+        width: 400px;
+        
+    }
+
+    .Municipios{
+        width: 400px;
+    }
+
+    .Info-municipios{
+        width: 400px;
+    }
+
+    .Municipios .Select_municipios{
+        margin: 0 0 0 100px;
+
+    }
+
+}
+
+@media (max-width: 550px){
+.Contenedor-municipios{
+    width: 450px;
+    background-color: chartreuse;
+}
+
+.Contenido-municipios{
+    width: 350px;
+    
+}
+
+.Municipios{
+    width: 400px;
+}
+
+.Info-municipios{
+    width: 400px;
+}
+
+.Municipios .Select_municipios{
+    margin: 0 0 0 100px;
+
+}
+
+}
+
+@media (max-width: 500px){
+.Contenedor-municipios{
+    width: 450px;
+    /*background-color: chartreuse;*/
+}
+
+.Contenido-municipios{
+    width: 350px;
+    
+}
+
+.Municipios{
+    width: 400px;
+}
+
+.Info-municipios{
+    width: 400px;
+}
+
+.Municipios .Select_municipios{
+    margin: 0 0 0 100px;
+
+}
+
+}
+
+
+@media (max-width: 450px){
+.Contenedor-municipios{
+    width: 400px;
+    background-color: orange;
+}
+
+.Contenido-municipios{
+    width: 300px;
+    margin: 0 50px;
+    /*background-color: rgb(0, 255, 106);*/
+    
+}
+
+.Municipios{
+    width: 300px;
+    /*background-color: blue;*/
+    margin: 0 auto;
+
+}
+.Municipios .Select_municipios{
+    width: 200px;
+    transform: translateX(-50px);
+    
+    
+}
+
+.Info-municipios{
+    width: 300px;
+}
+
+.Info-municipios p{
+    width: 250px;
+    font-size: 15px;
+    
+}
+
+.Municipios .Select_municipios{
+    margin: 0 0 0 100px;
+
+}
+
+}
+
+@media (max-width: 400px){
+.Contenedor-municipios{
+    width: 350px;
+    /*background-color: chartreuse;*/
+}
+
+.Contenido-municipios{
+    width: 300px;
+    margin: 0 25px;
+    /*background-color: rgb(0, 255, 106);*/
+    
+}
+
+.Municipios{
+    width: 300px;
+    /*background-color: blue;*/
+    margin: 0 auto;
+
+}
+.Municipios .Select_municipios{
+    width: 200px;
+    transform: translateX(-50px);
+    
+    
+}
+
+.Info-municipios{
+    width: 300px;
+}
+
+.Info-municipios p{
+    width: 250px;
+    font-size: 15px;
+    
+}
+
+.Municipios .Select_municipios{
+    margin: 0 0 0 100px;
+
+}
+
+}
+
+@media (max-width: 300px){
+.Contenedor-municipios{
+    width: 250px;
+    /*background-color: chartreuse;*/
+}
+
+.Contenido-municipios{
+    width: 200px;
+    margin: 0 25px;
+    background-color: aqua;
+    
+}
+
+.Municipios{
+    width: 200px;
+    /*background-color: blue;*/
+    margin: 0 auto;
+
+}
+.Municipios .Select_municipios{
+    width: 100px;
+    transform: translateX(-50px);
+    
+    
+}
+
+.Info-municipios{
+    width: 200px;
+}
+
+.Info-municipios p{
+    width: 200px;
+    font-size: 15px;
+    
+}
+
+.Municipios .Select_municipios{
+    margin: 0 0 0 100px;
+
+}
+
+}

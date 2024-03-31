@@ -1,0 +1,126 @@
+.Contenedor-tabla-artesanos{
+    width: 1700px;
+    height: 1000px;
+    /*background-color: rgb(0, 255, 72);*/
+    margin: 0 auto;
+    position: relative;
+}
+
+.table{
+    position: absolute;
+}
+
+
+@media (max-width: 1700px)
+{
+    .Contenedor-tabla-artesanos{
+        width: 1500px;
+    }
+
+}
+
+@media (max-width: 1500px)
+{
+    .Contenedor-tabla-artesanos{
+        width: 1300px;
+    }
+
+}
+
+@media (max-width: 1300px)
+{
+    .Contenedor-tabla-artesanos{
+        width: 1200px;
+    }
+
+}
+
+@media (max-width: 1000px)
+{
+    .Contenedor-tabla-artesanos{
+        width: 900px;
+        overflow: scroll;
+        scrollbar-color: rgba(75, 22, 22, 0.5) rgba(247, 0, 0, 0.05);
+        scrollbar-width: auto;
+    }
+    .Contenedor-tabla-artesanos::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+
+    .table{
+        max-width: 1000px;
+    }
+
+}
+
+@media (max-width: 900px)
+{
+    .Contenedor-tabla-artesanos{
+        width: 800px;
+        overflow: scroll;
+    }
+
+    .table{
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 800px)
+{
+    .Contenedor-tabla-artesanos{
+        width: 700px;
+        overflow: scroll;
+        
+    }
+    .Contenedor-tabla-artesanos >.table-light{
+        overflow-x: auto;
+    }
+
+    .table{
+        max-width: 1000px;
+    }
+   
+
+    
+
+    
+    
+}
+
+@media (max-width: 700px)
+{
+    .Contenedor-tabla-artesanos{
+        width: 600px;
+        overflow: scroll;
+        
+        
+    }
+
+    .table{
+        max-width: 1000px;
+    
+    }
+
+    
+    
+}
+
+@media (max-width: 500px)
+{
+    .Contenedor-tabla-artesanos{
+        width: 400px;
+        overflow: scroll;
+    }
+
+    .table{
+        max-width: 1000px;
+    
+    }
+
+    
+
+
+}
+
+
+
